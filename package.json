@@ -1,0 +1,32 @@
+{
+  "name": "Fundit",
+  "version": "1.0.0",
+  "homepage": "",
+  "description": "A Simple crowdfunding app built for learning web3",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "mocha",
+    "dev": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^10.1.0",
+    "ganache-cli": "^6.12.2",
+    "gh-pages": "^4.0.0",
+    "mocha": "^10.0.0",
+    "next": "^10.2.3",
+    "next-routes": "^1.4.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.8.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.3",
+    "solc": "^0.4.17",
+    "web3": "^1.8.0"
+  }
+}
